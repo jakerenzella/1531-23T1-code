@@ -1,0 +1,16 @@
+{
+  "name": "date-fn-example",
+  "version": "1.0.0",
+  "description": "Jake's awesome lecture code",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hayden": "echo 'Hi Hayden!'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.29.3"
+  }
+}
