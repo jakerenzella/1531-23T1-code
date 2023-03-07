@@ -1,19 +1,8 @@
-type Fmtr = (str: string) => string;
+const my_name = "Hayden";
+console.log(my_name);
 
-function brackets(str: string) {
-  return `(${str})`;
-}
-
-function fullstop(str: string) {
-  return `${str}.`;
-}
-
-function sayHi(name: string, format: Fmtr) {
-  return `Hello, ${format(name)}!`;
-}
-
-const result = sayHi('Hayden', brackets) +
-             ' -- ' +
-             sayHi('Hayden', fullstop);
-
-console.log(result);
+const getName = () => {
+  return "Hayden";
+};
+// What will this print?
+console.log(getName);
